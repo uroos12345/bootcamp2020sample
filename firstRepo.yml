@@ -31,5 +31,5 @@ jobs:
     - name: Installing Surge
       run: npm install --global surge
     - name : deploying using surge
-      run : surge ./  whole-beast.surge.sh --token ${{secrets. my_token_name}}
+      run : surge ./  whole-beast.surge.sh --token ${{secrets. MY_TOKEN_NAME}}
 
